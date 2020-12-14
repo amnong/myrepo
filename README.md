@@ -41,9 +41,10 @@ git checkout - get file from another branch
 git log --graph --all --oneline --decorate=full
 ```
 
-Repo
-Staging
-Dirty
+File states:
+  - After changing a file: dirty
+  - After `git add`: staging
+  - After `git push`: clean
 
 Git pull:
 
